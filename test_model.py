@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+
 import networkx as nx
 from model.model import Model
 
@@ -15,6 +15,9 @@ my_model.load_artists_with_min_albums(5)
 G = my_model.build_graph()
 print(G)
 """
+my_model.load_artists_with_min_albums(5)
+print(my_model.build_graph())
+
 
 # DE-COMMENTARE E ADATTARE I NOMI DELLE VARIABILI
 # PER DEBUG SUL GRAFO, AD ESEMPIO, PER
